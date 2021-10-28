@@ -4,11 +4,11 @@
       <div>
         <h1 class="font-extrabold text-2xl tracking-wider">Vuewind</h1>
       </div>
-      <div >
+      <div>
         <NuxtLink to="" class="hover:underline">Docs</NuxtLink>
       </div>
       <div class="space-x-4 divide-x-2">
-        <button>Log in</button>
+        <button>Log on</button>
         <button class="pl-4">Sign up</button>
       </div>
     </div>
