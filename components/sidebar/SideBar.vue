@@ -1,11 +1,11 @@
 <template>
-  <div class="bg-white w-80 overflow-y-auto">
+  <div class="bg-white overflow-y-auto transition-all duration-500 ease-in-out">
     <Menu>
-      <MenuItem icon={ToggleOutlineSvg} label="Components" :arrow="true">
+      <MenuItem icon="{ToggleOutlineSvg}" label="Components" :arrow="true">
         <template v-slot:icon>
           <ToggleOutlineSvg />
         </template>
-        <MenuItemChild>Button</MenuItemChild>
+        <MenuItemChild pageName="components-button">Button</MenuItemChild>
         <MenuItemChild>Modal</MenuItemChild>
         <MenuItemChild>Card</MenuItemChild>
       </MenuItem>

@@ -1,8 +1,14 @@
 <template>
-  <div class="menuItemChild">
+  <div class="menuItemChild" @click="$router.push({ name: pageName })">
     <slot></slot>
   </div>
 </template>
+
+<script>
+export default {
+  props: ["pageName"],
+};
+</script>
 
 <style scoped>
 .menuItemChild {
