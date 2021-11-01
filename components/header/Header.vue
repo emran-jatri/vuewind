@@ -8,7 +8,7 @@
         <NuxtLink to="" class="hover:underline">Docs</NuxtLink>
       </div>
       <div class="space-x-4 divide-x-2">
-        <button>Log on</button>
+        <button>Log in</button>
         <button class="pl-4">Sign up</button>
       </div>
     </div>
